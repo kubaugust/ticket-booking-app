@@ -18,6 +18,6 @@ I used H2 in-memory database in the project.
 ### Building and running the application
 1. Open your CLI (e.g. Terminal) and change directory to the destination, where you want to download the project.
 2. Type "git clone https://github.com/kubaugust/ticket-booking-app" into your CLI and downloading should start.
-3. To build and run the app type "cd ticket-booking-app" and then "sh run-the-app.sh" into your CLI or simply run "./mvnw spring-boot:run".
+3. To build and run the app type "cd ticket-booking-app", then "git checkout touk" and then "sh run-the-app.sh" into your CLI or simply run "./mvnw spring-boot:run".
 4. Open another window of your CLI and again perform steps to go inside "*ticket-booking-app*" directory or change directory to the place where you put "*curl-script.sh*" file.
 5. Run "sh curl-script.sh" and you should see some requests and responses provided for the given use case scenario.
